@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+.hero,
+main,
+footer,
+.band {
+    padding: 24px 10%;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero {
+
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    color: white;
+
+
+}
+
+.phero {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 8px 0;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 5PX 20px;
+
+
+}
+
+.left-hero {
+    flex: 1;
+}
+
+.hero-img {
+    width: 550px;
+    min-width: 0;
+    max-width: 100%;
+    aspect-ratio: 11 / 5;
+    object-fit: cover;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+.card img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.band {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding-left: calc(10% + 10% * 0.8);
+}
+
+blockquote footer {
+    text-align: right;
+}
+
+
+.endfooter {
+    text-align: center;
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 48px 10%;
+  margin: 64px 10%;
+}
+
+.call h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.call p {
+  margin: 0;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.bend {
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
